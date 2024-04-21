@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/5d4a685fcb.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5d4a685fcb.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Design and Media Production">
+    <meta name="keywords" content="HTML, media, design, photography, videography, business, services, camera, video, movies">
+    <meta name="Copyright" content="DesignandMediaProduction, Design & Media Production">
+    <meta name="robots" content="nofollow">
+    <meta name="author" content="Design & Media Production, DesignandMediaProduction">
+    <meta http-equiv="refresh" content="30">
+    <title>CMST 386 project 4</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/DMP.jpg">
+  </head>
+  <body>
+    <header>
+      <h1> CONTACT </h1>
+  </header>
+  <div class="icon">
+    <a href="https://linkedin.com" target="_blank">
+     <i class="fa-brands fa-linkedin" style="color: #03599b;"></i>
+     </a>
+     <a href="https://youtube.com" target="_blank">
+     <i class="fa-brands fa-youtube" style="color: #d41508;"></i>
+     </a>
+      <a href="https://facebook.com" target="_blank">
+     <i class="fa-brands fa-facebook" style="color: #097ed7;"></i>
+     </a>
+ </div>
+  <h1 class="logo">Design.<span>Media.</span>Production</h1>
+
+  <div class="menu-bar">
+        <Nav>
+            <ul>  
+                <li><a href="../D&M Home.html">D.M.P</a></li>
+                  <li><a href="Graphic Design.html">Graphic Design</a></li>
+                  <li><a href="Web Design.html">Web Design</a></li>
+                  <li><a href="Photography.html">Photography<i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-menu">
+                        <ul>
+                          <li><a href="Weddings">Weddings</a></li>
+                          <li><a href="Portraits">Portraits</a></li>
+                          <li><a href="Family-Couples">Family | Couples</a></li>
+                        </ul>
+                      </div>
+                </li>
+                  <li><a href="Videography.html">Videography<i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-menu">
+                        <ul>
+                          <li><a href="Weddings">Weddings</a></li>
+                          <li><a href="Promo">Promo Film</a></li>
+                          <li><a href="Production">Production Film</a></li>
+                          <li><a href="short">short Film</a></li>
+                        </ul>
+                      </div>
+                </li>
+                  <li><a href="Services.html">Services</a></li>   
+                  <li><a href="About.html">About<i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-menu">
+                        <ul>
+                          <li><a href="Team">Team | Contributions</a></li>
+                        </ul>
+                      </div>
+                </li>
+                  <li><a href="Career.html">Career</a></li>
+            </ul>
+        </Nav>
+    </div>
+
+
+
+
+    <section class="contacts">
+      <div class="contacts-form">
+        <form action="registration" id="myform" action="mail.to:dominique.m.clarke@outlook.com" onsubmit="return validateForm()" method="post" autocomplete="on">
+        <h1>Contact <span>Us</span></h1>
+        <p>If you are interested in working with us,
+           connect with me via phone, email or social media.
+           You can also provide your prefered method of contact.
+           Please select the package that suits you 
+           and add any additonal details in the subject section.
+          We look forward to working with you.</p>
+           
+          <div class="form-row wrap">
+            <label for="firstname">First Name:*</label>
+            <input type="text" class="alpha" id="firstname" placeholder="Enter first name">
+          </div>
+          <div class="form-row">
+            <label for="lastname">Last Name:*</label>
+            <input type="text" class="alpha" id="lastname" placeholder="Enter last name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email:*</label>
+            <input type="text" id="email" placeholder="Enter email">
+          </div>
+            <fieldset>
+              <legend class="col-form-label">Phone:*</legend>
+      
+              <div class="form-row">
+                <input type="text" id="area" placeholder="Area code">
+      
+                <input type="text" id="phone" placeholder="Phone Number">
+              </div>
+            </fieldset><fieldset class="form-row">
+              <legend class="col-form-label">Package Preference:*</legend>
+              <div id="Services" class="controls">
+                <div>
+                  <input type="radio" name="services" id="Package S" value="Package S">
+                  <label class="form-check-label" for="Package S">Package S</label>
+                </div>
+                <div>
+                  <input type="radio" name="services" id="Package M" value="Package M">
+                  <label class="form-check-label" for="Package M">Package M</label>
+                </div>
+                <div>
+                  <input type="radio" name="services" id="Package L" value="Package L">
+                  <label class="form-check-label" for="Package L">Package L</label>
+                </div>
+                <div>
+                  <input type="radio" name="services" id="package XL" value="Package XL">
+                  <label class="form-check-label" for="Package XL">Package XL</label>
+                 
+                </div>
+            </fieldset>
+            <fieldset class="form-row">
+              <legend class="col-form-label">Contact Method:*</legend>
+              <div id="contactmethod" class="controls">
+                <div class="form-row">
+                  <div class="col">
+                    <div>
+                      <input type="checkbox" id="contactphone" value="phone">
+                      <label class="form-check-label" for="phone">Phone</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="contactemail" value="email">
+                      <label class="form-check-label" for="email">E-mail</label>
+              
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div>
+                      <input type="checkbox" id="contactmail" value="mail">
+                      <label class="form-check-label" for="mail">post</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            <input type="" placeholder="Write a Subject" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required>
+    
+            </textarea>
+        <input type="submit" name="" value="Submit" class="btn">
+        <a href="mailto:dominique.m.clarke@outlook.com" target="_blank"></a>
+           </form>
+       </div>
+    
+       <div class="contacts-img">
+        <img src="../imgs/Contact.jpg">
+       </div>
+    </section>
+      
+
+
+
+
+
+
+    <footer>
+      <h3>Copyright &copy; 2024| Design & Media Production | All rights reserved<a href="policies.html">Policies</a></h3>
+      <div class="date">
+        <h1 id="current-time"></h1>
+        <h5 id="date-today"></h5>
+      </div>
+      </footer>
+    <div class="hero">
+      &nbsp;
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
